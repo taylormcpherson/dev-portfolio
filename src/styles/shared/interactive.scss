@@ -5,8 +5,19 @@ a,
     color: #232129;
 }
 
+.link__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .link__primary {
     position: relative;
+    display: flex;
+    align-items: center;
     opacity: .5;
     transition: all .25s ease-in-out;
 
@@ -24,14 +35,44 @@ a,
             right: 0;
             bottom: 0;
             left: 0;
-
-            background-color: purple;
             height: 2px;
+            background-color: purple;
         }
 
         svg {
             transform: translateX(4px);
         }
     }
+}
 
+
+.link__secondary {
+    position: relative;
+    display: flex;
+    align-items: center;
+    opacity: .5;
+    transition: all .25s ease-in-out;
+
+    svg {
+        transition: all .25s ease-in-out; 
+    }
+
+    &:hover,
+    &:focus {
+        opacity: 1;
+        
+        &:before {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            background-color: green;
+        }
+
+        svg {
+            transform: translateX(4px);
+        }
+    }
 }
