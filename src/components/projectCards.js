@@ -33,7 +33,7 @@ const projects = [
         title: "Perennials Fabrics",
         tags: "<development>",
         desc: "Detail oriented, collaborative project to enhance the navigation experience for something simpler, luxurious, and easy for all users -- regardless of their device preferences. I was one of two primary front end developers that worked on this launch. This is a client I regularly contribute work to. Perennials Fabrics is the leader in the luxury performance textile industry.",
-        url: "https://taylormcpherson.github.io/the-great-blog",
+        url: "https://www.perennialsfabrics.com/",
         cta: {
             title: "",
             url: ""
