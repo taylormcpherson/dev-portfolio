@@ -1,0 +1,14 @@
+.navbar__list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+
+
+.navbar__link--resume {
+    svg {
+        margin-left: 4px;
+    }
+}

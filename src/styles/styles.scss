@@ -1,0 +1,19 @@
+// shared 
+@use "src/styles/shared/presentational";
+@use "src/styles/shared/interactive";
+
+// pages
+//@use "src/styles/pages/about";
+@use "src/styles/pages/work";
+
+// components
+@use "src/styles/components/navbar";
+@use "src/styles/components/projectCards";
+
+// global
+body {
+    margin: 0;
+    box-sizing: border-box;
+    color: #232129;
+    font-family: "-apple-system, Roboto, sans-serif, serif";
+}

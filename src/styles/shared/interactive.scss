@@ -1,0 +1,37 @@
+// links
+a,
+.link__primary {
+    text-decoration: none;
+    color: #232129;
+}
+
+.link__primary {
+    position: relative;
+    opacity: .5;
+    transition: all .25s ease-in-out;
+
+    svg {
+        transition: all .25s ease-in-out; 
+    }
+
+    &:hover,
+    &:focus {
+        opacity: 1;
+        
+        &:before {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+
+            background-color: purple;
+            height: 2px;
+        }
+
+        svg {
+            transform: translateX(4px);
+        }
+    }
+
+}
