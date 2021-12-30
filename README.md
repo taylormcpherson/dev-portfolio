@@ -2,7 +2,7 @@
 <h1 align="center">
   Taylor McPherson
 </h1>
-<h2> 
+<h2 align="center"> 
   Development Portfolio 2021
 </h2>
 
