@@ -17,13 +17,13 @@ const IndexPage = () => {
                   data-sal="slide-up"
                   data-sal-duration="500"
                   data-sal-easing="ease">
-                Creative
+                Creative,
               </span><br />
               <span 
                   data-sal="slide-up"
                   data-sal-duration="800"
                   data-sal-easing="ease">
-                Accessible
+                Accessible,
               </span><br />
               <span 
                   data-sal="slide-up"
