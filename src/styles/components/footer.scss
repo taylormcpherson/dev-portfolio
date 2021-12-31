@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid rgba(255,255,255,.6);
+    padding: 20px 40px;
+    background-color: #232129;
+    color: white;
+}
+
+.footer__copy {
+    font-size: .9em; //14px;
+}
+
+.footer__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.footer__link {
+    svg {
+        color: white;
+    }
+
+    &:hover {
+        svg {
+            color: #7F93FF;
+        }
+    }
+}

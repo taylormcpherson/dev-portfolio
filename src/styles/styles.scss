@@ -3,17 +3,38 @@
 @use "src/styles/shared/interactive";
 
 // pages
-//@use "src/styles/pages/about";
+@use "src/styles/pages/about";
 @use "src/styles/pages/work";
 
 // components
 @use "src/styles/components/navbar";
+@use "src/styles/components/footer";
 @use "src/styles/components/projectCards";
 
 // global
+* {
+
+    &:focus {
+        outline: 2px dashed #232129;
+        outline-offset: 2px;
+    }
+}
+
 body {
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     box-sizing: border-box;
     color: #232129;
-    font-family: "-apple-system, Roboto, sans-serif, serif";
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif; 
+}
+
+p {
+    font-family: 'Raleway';
+    font-size: 1.1em; //18px;
+    line-height: 1.8em; //32px;
 }

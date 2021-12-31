@@ -1,16 +1,49 @@
 .work__intro {
-    height: 72vh;
+    height: calc(100vh - 62px);
     margin: 0 auto;
     max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .work__intro-title {
-    font-size: 72px;
-    line-height: 80px;
+    font-size: 92px;
+    line-height: 110px;
+    letter-spacing: 1.7px;
+    margin-top: 0;
     margin-bottom: 30px;
+    
 }
 .work__intro-subtitle {
     margin: 0;
     font-size: 40px;
     line-height: 60px;
+    letter-spacing: 1.5px;
+}
+
+.work__section-animation {
+    display: flex;
+    flex-wrap: nowrap;
+    display: flex;
+    will-change: transform;
+    
+    &:hover {
+        animation: marqueeOne 30s infinite forwards;
+    }
+}
+
+.work__section-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
+    white-space: nowrap;
+}
+
+@keyframes marqueeOne {
+    0% {
+        transform: translate(0, 0); 
+    }
+    100% { 
+        transform: translate(-100%, 0); 
+    } 
 }

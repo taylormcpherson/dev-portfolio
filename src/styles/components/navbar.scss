@@ -1,9 +1,39 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px 40px;
+    background-color: white;
+    z-index: 3;
+}
 .navbar__list {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    gap: 40px;
-    padding: 0 40px;
+    gap: 60px;
+    margin: 0;
+}
+
+.navbar__list-item {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar__link {
+    &.active {
+        &:after {
+            content: '';
+            position: absolute;
+            left: -14px;
+            width: 8px;
+            height: 8.5px;
+            border-radius: 50%;
+            background-color: #7F93FF;
+        }
+    }
 }
 
 .navbar__link--resume {

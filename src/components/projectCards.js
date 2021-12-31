@@ -17,7 +17,7 @@ const projects = [
         subtitle: "Mobile Optimized Donation Form",
         title: "Heifer International",
         tags: "<development>",
-        desc: "Multi-week intentisve and cross-team collaborative project with a focus on the optimization of mobile user expereinces. I was the primary front end developer for this work, alongside gift catalog improvements and other site-improvement tasks for this client. Heifer International is on a mission to end hunger and poverty in a sustainable way by supporting and investing alongside local farmers and their communities.",
+        desc: "An intentisve and cross-team collaborative project with a focus on the optimization of mobile user expereinces. I was the primary front end developer for this work, alongside gift catalog improvements and other site-improvement tasks for this client. Heifer International is on a mission to end hunger and poverty in a sustainable way by supporting and investing alongside local farmers and their communities.",
         url: "https://www.heifer.org/give/donate-monthly.html",
         cta: {
             title: "Read About the Impact",
@@ -32,7 +32,7 @@ const projects = [
         subtitle: "Simplified, Luxurious Navigation",
         title: "Perennials Fabrics",
         tags: "<development>",
-        desc: "Detail oriented, collaborative project to enhance the navigation experience for something simpler, luxurious, and easy for all users -- regardless of their device preferences. I was one of two primary front end developers that worked on this launch. This is a client I regularly contribute work to. Perennials Fabrics is the leader in the luxury performance textile industry.",
+        desc: "A detail oriented, collaborative project to enhance the navigation experience for something simpler, luxurious, and easy for all users -- regardless of their device preferences. I was one of two primary front end developers that worked on this launch. This is a client I regularly contribute work to. Perennials Fabrics is the leader in the luxury performance textile industry.",
         url: "https://www.perennialsfabrics.com/",
         cta: {
             title: "",
@@ -45,12 +45,12 @@ const projects = [
     {
         key: 'blog',
         subtitle: "Rapid Prototyping Exercise",
-        title: "The Great Blog",
+        title: "A Great Blog",
         tags: "<development, design>",
         desc: "An exercise in front end development, ux design, and rapid prototyping. Developed and designed in a one week span as an incoming assignment in my early days for Lifeblue. If you look closely, it is Bernie-Sits theme, which was especially relevant at the project's time of release.",
         url: "https://taylormcpherson.github.io/the-great-blog",
         cta: {
-            title: "Read About the Process",
+            title: "Learn about my process",
             url: "https://github.com/taylormcpherson/the-great-blog#readme"
         },
         img: BlogImage,
@@ -79,16 +79,10 @@ const ProjectCards = () => {
                     key={index}
                     data-color={project.color}
                     data-sal="fade"
-                    data-sal-delay="325"
-                    data-sal-easing="ease">
-                  <a className="link__overlay"
-                     href={project.url}
-                     target="_blank"
-                     aria-label="View Project Live." 
-                     rel="noreferrer"
-                  >
-                      <span className="presentational__is-hidden">View Project Live.</span>
-                  </a>
+                    data-sal-duration="80"
+                    data-sal-delay="100"
+                    data-sal-easing="ease-in-out"
+                >  
                   <div className="projectCards__card-img-wrapper">
                     <img 
                         className="projectCards__card-img"
@@ -97,27 +91,31 @@ const ProjectCards = () => {
                         width='100%'></img>
                   </div>
                   <div className="projectCards__card-copy">
-                      <h2 className="projectCards__card-subtitle">{project.subtitle}</h2>
-                      <h3 className="projectCards__card-title">{project.title}</h3>
-                      <p className="projectCards__card-tags">{project.tags}</p>
-                      <p className="projectCards__card-desc">{project.desc}</p>
-                      <a className="projectCards__card-link link__primary" 
-                          href={project.url}
-                          target="_blank"
-                          rel="noreferrer"
-                      >
-                        View it live
-                        <FontAwesomeIcon icon={faAngleRight} />
-                      </a>
-                      <a className={project.cta.url ? 'projectCards__card-link link__secondary' : 'presentational__is-hidden'} 
-                          href={project.cta.url}
-                          target="_blank"
-                          rel="noreferrer"
-                      >
-                        {project.cta.title}
-                        <FontAwesomeIcon icon={faAngleRight} />
-                      </a>
-                      
+                    <div className='projectCards__card-flex'>
+                        <div>
+                            <h2 className="projectCards__card-subtitle">
+                                {project.subtitle}
+                            </h2>
+                            <h3 className="projectCards__card-title">{project.title}</h3>
+                            <p className="projectCards__card-tags">{project.tags}</p>
+                        </div>
+                        <a className="projectCards__live-link"
+                            href={project.url}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            View Live
+                        </a>
+                    </div>
+                    <p className="projectCards__card-desc">{project.desc}</p>
+                    <a className={project.cta.url ? 'projectCards__card-link link__primary' : 'presentational__is-hidden'} 
+                        href={project.cta.url}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                    {project.cta.title}
+                    <FontAwesomeIcon icon={faAngleRight} />
+                    </a>
                   </div>
                 </li>
             ))}

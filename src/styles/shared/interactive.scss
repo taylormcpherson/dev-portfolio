@@ -3,6 +3,9 @@ a,
 .link__primary {
     text-decoration: none;
     color: #232129;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .link__overlay {
@@ -26,7 +29,8 @@ a,
     }
 
     &:hover,
-    &:focus {
+    &:focus,
+    &.active {
         opacity: 1;
         
         &:before {
@@ -36,7 +40,7 @@ a,
             bottom: 0;
             left: 0;
             height: 2px;
-            background-color: purple;
+            background-color: #7F93FF;
         }
 
         svg {

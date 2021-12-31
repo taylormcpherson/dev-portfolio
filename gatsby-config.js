@@ -1,25 +1,27 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Gatsby Test",
+    siteUrl: `https://taylormcpherson.netlify.app/`,
+    title: `Taylor McPherson`,
   },
   plugins: [
-    "gatsby-plugin-sass",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-transition-link`,
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: `images`,
+        path: `./src/images/`,
       },
-      __key: "images",
+      __key: `images`,
     },
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
-          threshold: .4, // Percentage of an element's area that needs to be visible to launch animation
+          threshold: .25, // Percentage of an element's area that needs to be visible to launch animation
           once: true, // Defines if animation needs to be launched once
           disable: false, // Flag for disabling animations
           
