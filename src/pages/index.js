@@ -49,7 +49,7 @@ const IndexPage = () => {
 
         <section className="work__projects-container">
           <h2 className="work__section-title">
-            Selected Work
+            Selected Works
           </h2>
           <ProjectCards></ProjectCards>
         </section>
