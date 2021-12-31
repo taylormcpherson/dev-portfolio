@@ -1,27 +1,41 @@
+$medium-screens: '767px';
+$large-screens: '990px';
+
 .about {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
     min-height: calc(100vh - 62px);
-    max-width: 86vw;
+    max-width: 90vw;
     margin: 0 auto;
-    padding: 40px 40px 80px 40px;
+
+    @media (min-width: $large-screens)  {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 40px 40px 80px 40px;
+        max-width: 86vw;
+    }
 }
 
 .about__section {
+    @media (min-width: $large-screens)  {
+        &[data-section=left] {
+            flex: 0 0 60%;
+        }
 
-    &[data-section=left] {
-        flex: 0 0 60%;
-    }
-
-    &[data-section=right] {
-        flex: 1;
+        &[data-section=right] {
+            flex: 1;
+        }
     }
 }
 
 .about__title {
     font-size: 44px;
     line-height: 60px;
+
+    @media (max-width: $large-screens) {
+        margin-top: 2em;
+        font-size: 32px;
+        line-height: 44px;
+    }
 
     &--link {
         display: inline-block;
@@ -33,6 +47,11 @@
         &:hover,
         &:focus {
             opacity: 1;
+        }
+
+        @media (max-width: $large-screens) {
+            font-size: 32px;
+            line-height: 44px;
         }
     }
 }
@@ -53,6 +72,12 @@
     border-radius: 50%;
     box-shadow: 2px 2px 30px rgba(0,0,0,.15);
 
+    @media (max-width: $medium-screens) {
+        max-width: 240px;
+        margin-top: 40px;
+        margin-bottom: 120px;
+    }
+
     // text
     &:before {
         content: 'Dog or cat person?';
@@ -63,6 +88,11 @@
         z-index: 2;
         opacity: .7;
         transition: transform .35s ease-in-out;
+
+        @media (max-width: $medium-screens) {
+            content: 'Dog or cat person? (tap)';
+            left: -120px;
+        }
     }
     
 
@@ -83,7 +113,8 @@
         transition: opacity .25s ease-in-out;   
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
         &:before {
             content: 'Dogs, duh.';
             left: auto;

@@ -1,17 +1,28 @@
+$medium-screens: '767px';
+$large-screens: '990px';
+
 .navbar {
     position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     top: 0;
     right: 0;
     left: 0;
     padding: 20px 40px;
     background-color: white;
     z-index: 3;
+
+    @media (min-width: $medium-screens) {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 }
 
 .navbar__title {
+
+    @media (max-width: $medium-screens) {
+        display: none;
+    }
+
     position: relative;
     margin: 0;
     opacity: .9;
