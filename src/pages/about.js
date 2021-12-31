@@ -48,7 +48,7 @@ const AboutPage = () => {
               data-sal-easing="ease-in-out">
             I have formally studied Computer Science, UX Research and Design, as well as a bit of Feminist Theory 
             and Art History. Whatever I am doing though, I do it with a
-            <strong> sincere desire to learn as much and contribute to a better world.</strong>
+            <strong> sincere desire to learn as much as I can and contribute to a better world.</strong>
           </p>
         </div>
         <div className="about__section" 
