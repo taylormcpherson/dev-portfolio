@@ -48,12 +48,9 @@ const WorkPage = () => {
         </section>
 
         <section className="work__projects-container">
-          <div className="work__section-animation">
-            <h2 className="work__section-title" 
-                aria-label="'Selected Works' in a text marquee.">
-              KS • SELECTED WORKS • SELECTED WORKS • SELECTED WORKS 
-            </h2>
-          </div>
+          <h2 className="work__section-title">
+            Selected Work
+          </h2>
           <ProjectCards></ProjectCards>
         </section>
       </div>

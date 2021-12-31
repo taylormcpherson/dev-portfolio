@@ -1,29 +1,54 @@
 .about {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     min-height: calc(100vh - 62px);
-    background-color: #232129;
-    color: white;
+    max-width: 86vw;
+    margin: 0 auto;
     padding: 40px;
+
 }
 
 .about__section {
-    flex: 0 0 50%;
 
     &[data-section=left] {
-       
+        flex: 0 0 60%;
     }
 
     &[data-section=right] {
-       
+        flex: 1;
+    }
+}
+
+.about__title {
+    font-size: 44px;
+    line-height: 60px;
+
+    &--link {
+        display: inline-block;
+        font-size: 44px;
+        line-height: 60px;
+
+        opacity: .7;
+
+        &:hover,
+        &:focus {
+            opacity: 1;
+        }
+    }
+}
+
+.about__copy {
+    strong {
+        font-weight: 900;
     }
 }
 
 .about__img-wrapper {
     justify-self: flex-end;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
     border-radius: 50%;
     overflow: hidden;
 }

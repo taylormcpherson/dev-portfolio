@@ -22,21 +22,26 @@
     letter-spacing: 1.5px;
 }
 
-.work__section-animation {
-    display: flex;
-    flex-wrap: nowrap;
-    display: flex;
-    will-change: transform;
-    
-    &:hover {
-        animation: marqueeOne 30s infinite forwards;
-    }
-}
 
 .work__section-title {
+    position: relative;
     font-family: 'Raleway', sans-serif;
-    font-size: 3.5em;
+    font-size: 3em;
+    line-height: 1.5em;
     white-space: nowrap;
+    padding-left: 100px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: .5em;
+        height: .5em;
+        border-radius: 50%;
+        background-color: #232129;
+    }
 }
 
 @keyframes marqueeOne {

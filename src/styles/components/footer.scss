@@ -23,11 +23,16 @@
 .footer__link {
     svg {
         color: white;
+        transition: all .35s ease-in-out;
     }
 
     &:hover {
         svg {
             color: #7F93FF;
         }
+    }
+
+    &:focus {
+        outline-color: white;
     }
 }

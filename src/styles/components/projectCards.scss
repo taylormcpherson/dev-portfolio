@@ -48,7 +48,6 @@
 
 .projectCards__card-img {
     position: relative;
-    //max-height: 60vh;
     transition: all .40s ease-in-out;
 
     img {
@@ -93,16 +92,14 @@
     box-shadow: 4px 2px 8px rgba(0,0,0,.15);
     color: white;
     border-radius: 50%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    //font-family: 'Roboto', sans-serif;
+    font-size: .8em;
     font-weight: bold;
     transition: all .35s ease-in-out;
 
-    &:hover,
-    &:focus {
+    &:hover {
         cursor: pointer;
         animation: rotate 5s infinite forwards;
-
     }
 }
 

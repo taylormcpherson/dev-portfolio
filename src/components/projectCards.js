@@ -1,11 +1,6 @@
 import * as React from 'react'
-//import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
-//import { Link } from 'gatsby'
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-//import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
-
 import HeiferImage from "../images/heifer.png"
 import PernImage from "../images/pern.png"
 import BlogImage from "../images/great-blog.png"
@@ -79,8 +74,8 @@ const ProjectCards = () => {
                     key={index}
                     data-color={project.color}
                     data-sal="fade"
-                    data-sal-duration="80"
-                    data-sal-delay="100"
+                    data-sal-duration="300"
+                    data-sal-delay="300"
                     data-sal-easing="ease-in-out"
                 >  
                   <div className="projectCards__card-img-wrapper">
