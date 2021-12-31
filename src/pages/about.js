@@ -38,7 +38,7 @@ const AboutPage = () => {
            >
             I am passionate about building intuitive, accessible, and responsive digital experiences for users 
             and stakeholders alike. I regularly work with frameworks and languages such as WordPress, PHP, 
-            Javascript, HTML5, LESS, and xSASS. I know that this is an ever-changing field to work in, and 
+            Javascript, HTML5, LESS, and SASS. I know that this is an ever-changing field to work in, and 
             I am always eager to pick up new skills, languages, or improvements to my craft.
           </p>
           <p className='about__copy'
