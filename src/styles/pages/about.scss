@@ -108,7 +108,7 @@ $large-screens: '990px';
         border-radius: 50%;
         object-fit: contain;
         background: transparent;
-        background-position: left;
+        background-position: bottom left;
         opacity: 0;
         transition: opacity .25s ease-in-out;   
     }
@@ -125,6 +125,10 @@ $large-screens: '990px';
             opacity: 1;
             background: url('../images/dolls.png');
             z-index: 2;
+
+            @media (max-width: $medium-screens) {
+                background: url('../images/dolls-mobile.jpg');
+            }
         }
     }
 
