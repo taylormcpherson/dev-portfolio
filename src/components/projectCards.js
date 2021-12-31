@@ -12,7 +12,7 @@ const projects = [
         subtitle: "Mobile Optimized Donation Form",
         title: "Heifer International",
         tags: "<development>",
-        desc: "An intentisve and cross-team collaborative project with a focus on the optimization of mobile user expereinces. I was the primary front end developer for this work, alongside gift catalog improvements and other site-improvement tasks for this client. Heifer International is on a mission to end hunger and poverty in a sustainable way by supporting and investing alongside local farmers and their communities.",
+        desc: "An intentisve and cross-team collaborative project with a focus on the optimization of mobile user experiences. I was the primary front end developer for this work, alongside gift catalog improvements and other site-improvement tasks for this client. Heifer International is on a mission to end hunger and poverty in a sustainable way by supporting and investing alongside local farmers and their communities.",
         url: "https://www.heifer.org/give/donate-monthly.html",
         cta: {
             title: "Read About the Impact",
@@ -56,7 +56,7 @@ const projects = [
       subtitle: "Archival Storytelling through Maps",
       title: "Country Music Hall of Fame",
       tags: "<development>",
-      desc: "Front end development with a focus on the optimization of mobile user expereinces.",
+      desc: "Front end development with a focus on the optimization of mobile user experiences.",
       url: "https://www.heifer.org/give/donate-monthly.html",
       img: "../images/heifer.png",
       imgAlt: "Images of Heifer's optimized donation form.",
