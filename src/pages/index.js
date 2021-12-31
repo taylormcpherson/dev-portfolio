@@ -8,7 +8,7 @@ const IndexPage = () => {
     <Layout>
       <Helmet htmlAttributes={{ lang: 'en-US' }}>
         <meta charSet="utf-8" />
-        <title>Work</title>
+        <title>Taylor McPherson</title>
       </Helmet>
       <div className="work">
         <section className="work__intro">

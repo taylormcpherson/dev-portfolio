@@ -8,7 +8,7 @@ const AboutPage = () => {
     <Layout>
       <Helmet htmlAttributes={{ lang: 'en-US' }}>
         <meta charSet="utf-8" />
-        <title>About</title>
+        <title>About Taylor</title>
       </Helmet>
       <section className="about">
         <div className="about__section" data-section="left">
