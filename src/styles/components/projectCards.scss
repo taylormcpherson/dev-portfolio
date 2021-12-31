@@ -27,7 +27,7 @@
         bottom: 0;
         left: 0;
         background: rgba(0,0,0,.05);
-        transition: all .40s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     &:hover {
@@ -48,7 +48,7 @@
 
 .projectCards__card-img {
     position: relative;
-    transition: all .40s ease-in-out;
+    transition: all .45s ease-in-out;
 
     img {
         object-fit: contain;
@@ -99,7 +99,7 @@
 
     &:hover {
         cursor: pointer;
-        animation: rotate 5s infinite forwards;
+        animation: rotate 4s infinite forwards;
     }
 }
 

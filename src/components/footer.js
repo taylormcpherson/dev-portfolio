@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
   return (
     <footer className="footer">
-        <p className='footer__copy'>© 2022 Taylor McPherson. Made with 🤍 + ☕ in Portland, OR USA.</p>
+        <p className='footer__copy'>© 2022 Taylor McPherson. Made with 🤍 + ☕ in Portland, OR, USA.</p>
 
         <ul className='footer__list'>
             <li className='footer__list-item'>

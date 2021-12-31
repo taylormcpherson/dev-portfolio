@@ -5,8 +5,7 @@
     min-height: calc(100vh - 62px);
     max-width: 86vw;
     margin: 0 auto;
-    padding: 40px;
-
+    padding: 40px 40px 80px 40px;
 }
 
 .about__section {
@@ -45,10 +44,60 @@
 }
 
 .about__img-wrapper {
+
+    cursor: pointer;
+    position: relative;
     justify-self: flex-end;
     max-width: 300px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px 0 0 auto;
     border-radius: 50%;
-    overflow: hidden;
+    box-shadow: 2px 2px 30px rgba(0,0,0,.15);
+
+    // text
+    &:before {
+        content: 'Dog or cat person?';
+        position: absolute;
+        left: -90px;
+        top: 50%;
+        transform: translateY(-50%) rotate(-90deg);
+        z-index: 2;
+        opacity: .7;
+        transition: transform .35s ease-in-out;
+    }
+    
+
+    // img overlay
+    &:after {
+        content: '';
+        position: absolute;
+        background: transparent;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 50%;
+        object-fit: contain;
+        background: transparent;
+        background-position: left;
+        opacity: 0;
+        transition: opacity .25s ease-in-out;   
+    }
+
+    &:hover {
+        &:before {
+            content: 'Dogs, duh.';
+            left: auto;
+            right: -60px;
+        }
+
+        &:after {
+            opacity: 1;
+            background: url('../images/dolls.png');
+            z-index: 2;
+        }
+    }
+
+    img {
+        border-radius: 50%;
+    }
 }

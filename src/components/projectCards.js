@@ -24,10 +24,10 @@ const projects = [
     },
     {
         key: 'pern',
-        subtitle: "Simplified, Luxurious Navigation",
+        subtitle: "Simplified and Intuitive Navigation",
         title: "Perennials Fabrics",
         tags: "<development>",
-        desc: "A detail oriented, collaborative project to enhance the navigation experience for something simpler, luxurious, and easy for all users -- regardless of their device preferences. I was one of two primary front end developers that worked on this launch. This is a client I regularly contribute work to. Perennials Fabrics is the leader in the luxury performance textile industry.",
+        desc: "A detail oriented, collaborative project to enhance the navigation experience for something simple, luxurious, and easy-to-use for all users regardless of their device preferences. I was one of two primary front end developers that worked on this launch. This is a client I regularly contribute work to. Perennials Fabrics is the leader in the luxury performance textile industry.",
         url: "https://www.perennialsfabrics.com/",
         cta: {
             title: "",

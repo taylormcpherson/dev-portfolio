@@ -38,7 +38,7 @@ const AboutPage = () => {
            >
             I am passionate about building intuitive, accessible, and responsive digital experiences for users 
             and stakeholders alike. I regularly work with frameworks and languages such as WordPress, PHP, 
-            Javascript, HTML5, LESS, SASS. I know that this is an ever-changing field to work in, and 
+            Javascript, HTML5, LESS, and xSASS. I know that this is an ever-changing field to work in, and 
             I am always eager to pick up new skills, languages, or improvements to my craft.
           </p>
           <p className='about__copy'
@@ -47,8 +47,8 @@ const AboutPage = () => {
               data-sal-duration="800"
               data-sal-easing="ease-in-out">
             I have formally studied Computer Science, UX Research and Design, as well as a bit of Feminist Theory 
-            and Art History. Whatever I am doing though, I hold a deep desire to 
-            <strong> learn as much as I can and to do good in the world.</strong>
+            and Art History. Whatever I am doing though, I do it with a
+            <strong> sincere desire to learn as much and contribute to a better world.</strong>
           </p>
         </div>
         <div className="about__section" 
