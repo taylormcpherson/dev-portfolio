@@ -22,7 +22,7 @@ const projects = [
         img: HeiferImage,
         imgAlt: "Three mobile interface images of Heifer's optimized donation form.",
     },
-    {
+    /*{
         key: 'cmhf',
         subtitle: "Archival Storytelling with Maps",
         title: "Country Music Hall of Fame",
@@ -35,7 +35,7 @@ const projects = [
         },
         img: CmhfImage,
         imgAlt: "Image of Music Row's Home Page on a laptop, tablet, and mobile devices.",
-    },
+    },*/
     {
         key: 'pern',
         subtitle: "Simplified and Intuitive Navigation",
