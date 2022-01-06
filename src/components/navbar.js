@@ -21,7 +21,7 @@ const NavBar = () => {
                 </li>
                 <li className="navbar__list-item"> 
                     <a className="link__primary navbar__link navbar__link--resume" 
-                    href="https://drive.google.com/file/d/1Idwn4_wE20YicfdAsq3q0MNUk70EHJTk/view?usp=sharing" 
+                    href="https://drive.google.com/file/d/1K_RctaPKvp60bSNViic6meo7GEx3g49Y/view?usp=sharing" 
                     rel="noreferrer"
                     target="_blank">
                         Resume
