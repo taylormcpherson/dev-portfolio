@@ -4,6 +4,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
 import HeiferImage from "../images/heifer.png"
 import PernImage from "../images/pern.png"
 import BlogImage from "../images/great-blog.png"
+import CmhfImage from "../images/cmhf.png"
 
 // data
 const projects = [
@@ -12,7 +13,7 @@ const projects = [
         subtitle: "Mobile Optimized Donation Form",
         title: "Heifer International",
         tags: "<development>",
-        desc: "An intentisve and cross-team collaborative project with a focus on the optimization of mobile user experiences. I was the primary front end developer for this work, alongside gift catalog improvements and other site-improvement tasks for this client. Heifer International is on a mission to end hunger and poverty in a sustainable way by supporting and investing alongside local farmers and their communities.",
+        desc: "An intensive and cross-team collaborative project with a focus on the optimization of mobile user experiences. I was the primary front end developer for this work, which was javascript and functionality heavy. I also contributed to gift catalog improvements alongside other tasks for this client. Heifer International is on a mission to end hunger and poverty in a sustainable way by supporting and investing alongside local farmers and their communities.",
         url: "https://www.heifer.org/give/donate-monthly.html",
         cta: {
             title: "Read About the Impact",
@@ -20,14 +21,27 @@ const projects = [
         },
         img: HeiferImage,
         imgAlt: "Three mobile interface images of Heifer's optimized donation form.",
-        color: 'lightblue',
+    },
+    {
+        key: 'cmhf',
+        subtitle: "Archival Storytelling with Maps",
+        title: "Country Music Hall of Fame",
+        tags: "<development>",
+        desc: "A media heavy, one page application made for Country Music Hall of Fame. This experience is intended to interactively present the vast, digital archive of Country Music History that lives on Music Row in Nashville, TN. I used Mapbox GL JS for map software, and put in great efforts for performance optimization as is required for such a media and javascript heavy single page site. I was the lead front end developer for the entirety of this project. Music Row launched on New Years, 2022.",
+        url: "https://musicrow.countrymusichalloffame.org/",
+        cta: {
+            title: "",
+            url: ""
+        },
+        img: CmhfImage,
+        imgAlt: "Image of Music Row's Home Page on a laptop, tablet, and mobile devices.",
     },
     {
         key: 'pern',
         subtitle: "Simplified and Intuitive Navigation",
         title: "Perennials Fabrics",
         tags: "<development>",
-        desc: "A detail oriented, collaborative project to enhance the navigation experience for something simple, luxurious, and easy-to-use for all users regardless of their device preferences. I was one of two primary front end developers that worked on this launch. This is a client I regularly contribute work to. Perennials Fabrics is the leader in the luxury performance textile industry.",
+        desc: "A detail oriented, collaborative project to enhance the navigation experience for something simple, luxurious, and easy to use for all users regardless of their device preferences. I was one of two primary front end developers that worked on this launch. This is a client I regularly contribute work to. Perennials Fabrics is the leader in the luxury performance textile industry.",
         url: "https://www.perennialsfabrics.com/",
         cta: {
             title: "",
@@ -35,7 +49,6 @@ const projects = [
         },
         img: PernImage,
         imgAlt: "Image of The Great Blog on a laptop device.",
-        color: 'lightsalmon',
     },
     {
         key: 'blog',
@@ -50,17 +63,7 @@ const projects = [
         },
         img: BlogImage,
         imgAlt: "Image of Perennials Fabrics Home Page on a laptop device with the navigation dropdown visible.",
-        color: 'violet',
     },
-    /*{
-      subtitle: "Archival Storytelling through Maps",
-      title: "Country Music Hall of Fame",
-      tags: "<development>",
-      desc: "Front end development with a focus on the optimization of mobile user experiences.",
-      url: "https://www.heifer.org/give/donate-monthly.html",
-      img: "../images/heifer.png",
-      imgAlt: "Images of Heifer's optimized donation form.",
-    },*/
 ]
 
 const ProjectCards = () => {
@@ -99,7 +102,7 @@ const ProjectCards = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            View Live
+                            See it Live
                         </a>
                     </div>
                     <p className="projectCards__card-desc">{project.desc}</p>

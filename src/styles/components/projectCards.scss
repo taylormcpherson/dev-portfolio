@@ -110,16 +110,17 @@ $large-screens: '990px';
     width: 80px;
     height: 80px;
     background-color: #7F93FF;
-    box-shadow: 4px 2px 8px rgba(0,0,0,.15);
+    box-shadow: 0 2px 8px rgba(0,0,0,.35);
     color: white;
     border-radius: 50%;
     font-size: .8em;
     font-weight: bold;
-    transition: all .35s ease-in-out;
+    transition: all 3s ease-in-out;
 
     &:hover {
         cursor: pointer;
-        animation: rotate 4s infinite forwards;
+        //animation: spinOut 3s infinite linear backwards;
+        transform: rotate(360deg);
     }
 
     @media (max-width: $large-screens) {
@@ -135,11 +136,11 @@ $large-screens: '990px';
     }
 }
 
-@keyframes rotate {
-    0% {
+@keyframes spinOut {
+    from {
         transform: rotate(0); 
     }
-    100% { 
+    to { 
         transform: rotate(-360deg); 
     } 
 }
