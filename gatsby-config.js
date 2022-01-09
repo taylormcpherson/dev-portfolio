@@ -1,7 +1,15 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.taylormcpherson.dev`,
     title: `Taylor McPherson`,
+    siteUrl: `https://www.taylormcpherson.dev`,  // No trailing slash allowed!
+    description:
+      `Taylor McPherson is a frontend engineer with specialties in web accessibility, user experience, and overall web and mobile development. Taylor believes in leveraging technology for a better world.`,
+      image: "/icon.png",
+  },
+  siteMetadata: {
+   
+  
+   
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
