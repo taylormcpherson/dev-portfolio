@@ -12,7 +12,7 @@ const Footer = () => {
             <li className='footer__list-item'>
                 <a className="footer__link" 
                     href="mailto:taylormcpherson.dev@gmail.com" 
-                    rel="noreferrer"
+                    rel="nofollow"
                     target="_blank"
                     aria-label="LinkedIn.">
                     <FontAwesomeIcon icon={faEnvelope} />
