@@ -6,11 +6,6 @@ module.exports = {
       `Taylor McPherson is a frontend engineer with specialties in web accessibility, user experience, and overall web and mobile development. Taylor believes in leveraging technology for a better world.`,
       image: "/icon.png",
   },
-  siteMetadata: {
-   
-  
-   
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,

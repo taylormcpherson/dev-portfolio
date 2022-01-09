@@ -1,21 +1,10 @@
 import * as React from 'react'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const AboutPage = () => {
   return (
     <Layout>
-      <Helmet htmlAttributes={{ lang: 'en-US' }}>
-        <meta charSet="utf-8" />
-        <link rel="icon" 
-              href="data:image/svg+xml,
-              <svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
-              <text y=%22.9em%22 font-size=%2290%22>
-              🥳
-              </text></svg>">
-        </link>
-      </Helmet>
       <section className="about">
         <div className="about__section" data-section="left">
 

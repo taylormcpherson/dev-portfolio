@@ -1,21 +1,10 @@
 import * as React from 'react'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import ProjectCards from '../components/projectCards'
 
 const IndexPage = () => {
   return (
     <Layout>
-      <Helmet htmlAttributes={{ lang: 'en-US' }}>
-        <meta charSet="utf-8" />
-        <link rel="icon" 
-              href="data:image/svg+xml,
-              <svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
-              <text y=%22.9em%22 font-size=%2290%22>
-              🥳
-              </text></svg>">
-        </link>
-      </Helmet>
       <div className="work">
         <section className="work__intro">
           <h1 className="work__intro-title">
