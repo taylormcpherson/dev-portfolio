@@ -2,7 +2,7 @@ $medium-screens: '767px';
 $large-screens: '990px';
 
 .work__intro {
-    height: calc(100vh - 62px);
+    min-height: calc(100vh - 62px);
     margin: 0 auto;
     max-width: 90vw;
     display: flex;
