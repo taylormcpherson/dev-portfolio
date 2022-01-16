@@ -11,7 +11,7 @@ const Footer = () => {
         <ul className='footer__list'>
             <li className='footer__list-item'>
                 <a className="footer__link" 
-                    href="mailto:taylormcpherson.dev@gmail.com" 
+                    href="mailto:taylormcpherson.dev@gmail.com"
                     rel="nofollow"
                     target="_blank"
                     aria-label="LinkedIn.">

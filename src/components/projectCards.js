@@ -4,7 +4,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
 import HeiferImage from "../images/heifer.png"
 import PernImage from "../images/pern.png"
 import BlogImage from "../images/great-blog.png"
-import CmhfImage from "../images/cmhf.png"
+//import CmhfImage from "../images/cmhf.png"
 
 // data
 const projects = [
