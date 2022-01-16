@@ -4,7 +4,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
 import HeiferImage from "../images/heifer.png"
 import PernImage from "../images/pern.png"
 import BlogImage from "../images/great-blog.png"
-//import CmhfImage from "../images/cmhf.png"
+import CmhfImage from "../images/cmhf.png"
 
 // data
 const projects = [
@@ -48,7 +48,7 @@ const projects = [
             url: ""
         },
         img: PernImage,
-        imgAlt: "Image of The Great Blog on a laptop device.",
+        imgAlt: "Image of Perennials Fabrics navigation experience on a laptop and mobile device.",
     },
     {
         key: 'blog',
@@ -62,7 +62,7 @@ const projects = [
             url: "https://github.com/taylormcpherson/the-great-blog#readme"
         },
         img: BlogImage,
-        imgAlt: "Image of Perennials Fabrics Home Page on a laptop device with the navigation dropdown visible.",
+        imgAlt: "Image of The Great Blog on a laptop device.",
     },
 ]
 
