@@ -4,6 +4,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
 import HeiferImage from "../images/heifer.png"
 import PernImage from "../images/pern.png"
 import BlogImage from "../images/great-blog.png"
+import TrialImage from "../images/trialtech.png"
 import CmhfImage from "../images/cmhf.png"
 
 // data
@@ -64,6 +65,20 @@ const projects = [
         img: BlogImage,
         imgAlt: "Image of The Great Blog on a laptop device.",
     },
+    {
+        key: 'trial',
+        subtitle: "Brochure Website",
+        title: "Zweng Trial Technology",
+        tags: "<development, design>",
+        desc: "Work for a legal technology company needing a simple and user friendly brochure website. All design and development work was done by me. Due to the simplicity of the site, it was developed using Gatsby.js (much like my own portfolio site you are currently browsing). The UX design of the site took into consideration the primary needs of both the company and their users: something easy to read, simple to navigate, and quick to get in contact for service needs.",
+        url: "https://www.zwengtrialtech.com/",
+        cta: {
+            title: "",
+            url: ""
+        },
+        img: TrialImage,
+        imgAlt: "Image of Zweng Trial Technology website Homepage services and Contact page on a desktop and laptop computer.",
+    },
 ]
 
 const ProjectCards = () => {
@@ -75,11 +90,6 @@ const ProjectCards = () => {
                 <li className="projectCards__list-item"
                     id={"project-card--" + index}
                     key={index}
-                    data-color={project.color}
-                    data-sal="fade"
-                    data-sal-duration="300"
-                    data-sal-delay="300"
-                    data-sal-easing="ease-in-out"
                 >  
                   <div className="projectCards__card-img-wrapper">
                     <img 

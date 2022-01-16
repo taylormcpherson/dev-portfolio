@@ -10,13 +10,13 @@ const AboutPage = () => {
 
           <h1 className="about__title"
               data-sal="slide-up"
-              data-sal-duration="600"
-              data-sal-delay="600"
+              data-sal-duration="500"
+              data-sal-delay="300"
               data-sal-easing="ease-in-out"
           > 
             Hi 👋 I'm Taylor, <br />
             a Front End Engineer <br />currently working for
-            <span> &nbsp; 
+            <span>&nbsp; 
               <a className='link__primary about__title--link'
                 href="https://www.lifeblue.com"
                 target="_blank"
