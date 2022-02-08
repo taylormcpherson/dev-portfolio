@@ -10,6 +10,20 @@ import CmhfImage from "../images/cmhf.png"
 // data
 const projects = [
     {
+        key: 'cmhf',
+        subtitle: "Archival Storytelling with Maps and Media",
+        title: "Country Music Hall of Fame",
+        tags: "<development>",
+        desc: "A multimedia, one page 'web exhibit' made for Country Music Hall of Fame. This experience is intended to interactively present the vast, digital archive of Country Music History that lives on Music Row in Nashville, TN. I used Mapbox GL JS for map software, and put in great efforts for performance optimization as is required for such a media and javascript heavy single page site. “Historic Music Row” incorporates archival video, photos, music, and more from the Museum’s collections to trace the history of several of Music Row’s landmark businesses and the people who made world-famous music there. I was the lead front end developer for the entirety of this project.",
+        url: "https://musicrow.countrymusichalloffame.org/",
+        cta: {
+            title: "",
+            url: ""
+        },
+        img: CmhfImage,
+        imgAlt: "Image of Music Row's Home Page on a laptop, tablet, and mobile devices.",
+    },
+    {
         key: 'heifer',
         subtitle: "Mobile Optimized Donation Form",
         title: "Heifer International",
@@ -23,20 +37,6 @@ const projects = [
         img: HeiferImage,
         imgAlt: "Three mobile interface images of Heifer's optimized donation form.",
     },
-    /*{
-        key: 'cmhf',
-        subtitle: "Archival Storytelling with Maps",
-        title: "Country Music Hall of Fame",
-        tags: "<development>",
-        desc: "A media heavy, one page application made for Country Music Hall of Fame. This experience is intended to interactively present the vast, digital archive of Country Music History that lives on Music Row in Nashville, TN. I used Mapbox GL JS for map software, and put in great efforts for performance optimization as is required for such a media and javascript heavy single page site. I was the lead front end developer for the entirety of this project. Music Row launched on New Years, 2022.",
-        url: "https://musicrow.countrymusichalloffame.org/",
-        cta: {
-            title: "",
-            url: ""
-        },
-        img: CmhfImage,
-        imgAlt: "Image of Music Row's Home Page on a laptop, tablet, and mobile devices.",
-    },*/
     {
         key: 'pern',
         subtitle: "Simplified and Intuitive Navigation",
