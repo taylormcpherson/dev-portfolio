@@ -101,16 +101,19 @@ const ProjectCards = () => {
                   <div className="projectCards__card-copy">
                     <div className='projectCards__card-flex'>
                         <div>
-                            <h2 className="projectCards__card-subtitle">
+                            <h2 className="projectCards__card-subtitle" id={project.key + '-subtitle'}>
                                 {project.subtitle}
                             </h2>
-                            <h3 className="projectCards__card-title">{project.title}</h3>
+                            <h3 className="projectCards__card-title" id={project.key + '-title'}>
+                                {project.title}
+                            </h3>
                             <p className="projectCards__card-tags">{project.tags}</p>
                         </div>
                         <a className="projectCards__live-link"
                             href={project.url}
                             target="_blank"
                             rel="noreferrer"
+                            aria-labelledby={project.key + '-subtitle ' + project.key+'-title'}
                         >
                             See it Live
                         </a>
