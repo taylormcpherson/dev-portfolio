@@ -15,15 +15,8 @@ const AboutPage = () => {
               data-sal-easing="ease-in-out"
           > 
             Hi 👋 I'm Taylor, <br />
-            a Front End Engineer <br />currently working for
-            <span>&nbsp; 
-              <a className='link__primary about__title--link'
-                href="https://www.lifeblue.com"
-                target="_blank"
-                rel="noreferrer">
-                Lifeblue.
-              </a>
-            </span>&nbsp;
+            a Front End Engineer <br />
+            with a heart for social impact.
           </h1>
           <p className="about__copy"
              data-sal="fade"
