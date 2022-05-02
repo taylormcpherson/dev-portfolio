@@ -12,7 +12,7 @@ export default function Layout({ children }) {
       <Helmet htmlAttributes={{ lang: 'en-US' }}>
         <meta charSet="utf-8" />
         <title>Taylor McPherson</title>
-        <meta name="description" content="Taylor McPherson is a frontend engineer who specializes in web accessibility, user experience, and overall web and mobile development. Taylor believes in leveraging technology for a better world." />
+        <meta name="description" content="Taylor McPherson is a frontend software engineer who specializes in web accessibility, user experience, and overall web and mobile development. Taylor believes in leveraging technology for a better world." />
         <link rel="icon" 
               href="data:image/svg+xml,
               <svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
